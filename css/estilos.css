@@ -1,8 +1,8 @@
 :root {
-  --cinza: #10a882;
+  --cinza: hsl(273, 83%, 36%);
   --vermelha: rgb(61, 235, 128);
   --vermelha-escura: hsl(204, 57%, 44%);
-  --branca: hsl(130, 85%, 40%);
+  --branca: hwb(165 6% 26%);
   --luz: hsl(147, 83%, 49%);
 }
 
