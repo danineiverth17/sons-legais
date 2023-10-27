@@ -1,6 +1,6 @@
 :root {
   --cinza: #10a882;
-  --vermelha: hsl(204, 80%, 58%);
+  --vermelha: hwb(152 24% 8%);
   --vermelha-escura: hsl(204, 57%, 44%);
   --branca: hsl(157, 85%, 40%);
   --luz: #162ae6;
