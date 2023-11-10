@@ -1,14 +1,14 @@
 :root {
-  --cinza: hsl(273, 83%, 36%);
-  --vermelha: rgb(61, 235, 128);
-  --vermelha-escura: hsla(0, 0%, 95%, 0.397);
+  --cinza: hsl(212, 56%, 54%);
+  --vermelha: rgb(61, 180, 235);
+  --vermelha-escura: hsla(0, 0%, 95%, 0.397)
   --branca: hwb(165 6% 26%);
-  --luz: hsl(147, 83%, 49%);
+  --luz: hsl(199, 83%, 49%);
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #e1e2e2 0%,#eaecee 100%);
+  background: linear-gradient(45deg, #a1dbdb 0%,#eaecee 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
