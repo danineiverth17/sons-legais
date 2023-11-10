@@ -1,6 +1,6 @@
 :root {
   --azul: hsl(212, 56%, 54%);
-  --azul mais claro: rgb(61, 180, 235);
+  --azul: rgb(61, 180, 235);
   --azul: hsla(0, 0%, 95%, 0.397)
   --branca: hwb(165 6% 26%);
   --luz: hsl(199, 83%, 49%);
