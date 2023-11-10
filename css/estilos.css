@@ -1,7 +1,7 @@
 :root {
   --cinza: hsl(273, 83%, 36%);
   --vermelha: rgb(61, 235, 128);
-  --vermelha-escura: hsl(204, 57%, 44%);
+  --vermelha-escura: hsl(0, 0%, 95%);
   --branca: hwb(165 6% 26%);
   --luz: hsl(147, 83%, 49%);
 }
