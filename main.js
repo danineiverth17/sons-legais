@@ -1,16 +1,22 @@
-//Declação/criação da função
+//Declaração/criação da função tocaSomPom
 function tocaSom(idElementoAudio){
-    document.querySelector(idElementoAudio).play();
+    document.querySelector(idElementoAudio) .play();
 }
-//criando a referências constante listaDeTeclas e buscando a classe
-const listaDeTeclas = document.querySelectorAll('.tecla');
-let contador = 0;
-while(contador < listaDeTeclas.length){
-    const efeito = listaDeTeclas [contador].classlist[1];
-    const idAudio = "#som_" + efeito;
-    listaDeTeclas[contador].onclick = function(){
+//criando a referência constante ListadeTeclas e buscando a classe.
+const ListadeTeclas = document.querySelectorAll('.tecla');
+//criação de repetição
+
+for(let contador = 0;contador < ListadeTeclas.length;contador++) {
+    const teclas = ListadeTeclas[contador];
+    const efeito = teclas.classList[1];
+    const idAudio = `#som_${efeito}`;
+    teclas.onclick = function(){
         tocaSom(idAudio);
-    } 
-    contador = contador + 1;
-    console.log(contador);
+    }
+    teclas.onkeydown = function(){
+        teclas.classList.add('ativa')
+    }
+    teclas.onkeyup = function(){
+        teclas.classList.remove('ativa');
+    }
 }
